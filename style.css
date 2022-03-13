@@ -75,6 +75,7 @@ body{
 }
 
 .main{
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -119,7 +120,7 @@ span{
 }
 
 .banda{
-    margin-top: 50px;
+    
     grid-template-columns: repeat(4,1fr);
     display: grid;
     padding: 20px 0;
@@ -363,6 +364,11 @@ p{
 
     .banner-galeria{
         margin-left: 40px;
+    }
+
+    .gucky{
+        width: 350px;
+        height: 350px;
     }
 
     .img{
