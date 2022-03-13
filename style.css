@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    font-family: 'Press Start 2p', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff282;
+    overflow-x: hidden;
+}
+
+.contenedor{ 
+    margin: 10px 185px 100px 185px;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: #fff282;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.brand{
+    width: 250px;
+}
+
+.navbar{
+    display: flex;
+    margin: 30px 40px;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    grid-template-rows: 1;
+    grid-column-start: 3;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#iconos{
+    width: 30px;
+    margin-top: 0px;
+    color: #ffb100;
+}
+
+.menu .active{
+    color: #ffb100;
+    margin: 20px 15px;
+    right: 10px;
+}
+
+.menu .active:hover{
+    background-color: #ffb100;
+    padding: 15px;
+    transition: ease-in .1s;
+    box-shadow: 2px 2px 2px black;
+    color: #303030;
+}
+
+.main{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.parrafo-content{
+    margin: 15px 15px 0 0;
+
+}
+
+h1{
+    font-size: 3em;
+    color: #ffb100;
+}
+
+span{
+    color: #e48c00;
+}
+
+.gucky{
+    margin-left: 125px;
+}
+
+.mint-button{
+    padding: 10px 20px;
+    background-color: #ffb100;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: none;
+    font-size: 20px;
+}
+
+.mint-button a{
+    color: black;
+}
+
+.mint-button:hover{
+    background-color: #e48c00;
+    transition: .3s;
+    box-shadow: 2px 2px 2px black;
+}
+
+.banda{
+    
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #ffb100;
+}
+
+.banda-items{
+    margin: auto;
+    text-align: center;
+}
+
+.road-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 0;
+}
+
+.letras-grandes{
+    font-size: 50px;
+    display: block;
+    padding-top: 115px;
+    text-align: center;
+}
+
+.contenedor-contenido{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.road{  
+    margin: 0 185px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.road-text{
+    text-align: center;
+    margin: 80px 0;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #ffb100;
+    box-shadow: 2px 2px 2px black;
+}
+
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.pregunta{
+    margin: 20px 0 0 30px;
+}
+
+.about-text{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 27px;
+    padding: 15px;
+    background-color: #ffb100;
+    box-shadow: 2px 2px 2px black;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+#iconos{
+    font-size: 30px;
+    padding: 0 30px 0 20px;
+    color: black;
+}
+
+p{
+    padding: 10px;
+}
+
+.aboutusimg{
+    margin-left: 130px;
+}
+
+.money-distribution{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.money-text{
+    display: grid;
+    grid-gap: 70px;
+}
+
+.text-distribution{
+    text-align: center;
+    font-size: 27px;
+    background-color: #ffb100;
+    box-shadow: 2px 2px 2px black;
+    font-family: 'Ubuntu', 'sans-serif';
+    margin-left: 20px;
+}
+
+.lista{
+    list-style: none;
+    padding: 30px;
+    font-size: 25px;    
+}
+
+.caja1{
+    background-color: #f7931a;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 2px 2px 2px black;
+}
+
+.caja2{
+    background-color: #19a910;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 2px 2px 2px black;
+}
+
+.caja3{
+    background-color: #c20c0c;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 2px 2px 2px black;
+}
+
+.contenedor-galeria{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.banner-galeria{
+    margin-left: 110px;
+}
+
+.text-gucky{
+    display: grid;
+    text-align: center;
+}
+
+.title-guckyuno{
+    margin: 30px;
+    background-color: #ffb100;
+    box-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    align-items: center;
+}
+
+.title-guckydos{
+    font-size: 20px;
+}
+
+.lista-gucky{
+    font-size: 25px;
+    padding: 25px;
+}
+
+.icon-gucky{
+    width: 60px;
+}
+
+.body-gucky{
+    width: 45px;
+}
+
+.footer{
+    background-color: #303030;
+    width: 100%;
+    display: grid;
+
+}
+
+.red-social{
+    text-align: center;
+}
+
+#iconos-footer{
+    width: 40px;
+    margin: 50px auto 20px auto;
+    padding: 0 30px;
+    color: white;
+}
+
+.grupo-2{
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+
+}
+
+@media(max-width: 1500px){
+    .road-text{
+        font-size: 20px;
+    }
+
+    .about-text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1419px) {
+    .banda{
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .pregunta{
+        font-size: 15px;
+    }
+
+    #iconos{
+        font-size: 20px;
+        padding: 0 10px 0;
+    }
+
+    .lista{
+        font-size: 20px;
+    }
+
+    .lista-marketing{
+        font-size: 18px;
+    }
+
+    .money-text{
+        grid-gap: 40px;
+    }
+
+    .caja1, .caja2, .caja3{
+        width: 20px;
+        height: 20px;
+    }
+
+    .banner-galeria{
+        margin-left: 40px;
+    }
+
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+
+@media (max-width: 1300px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+    .banda{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    h1{
+        margin: 50px auto 0 auto;
+        text-align: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .parrafo-content{
+        align-items: center;
+        text-align: center;
+        margin: 0 auto 0 auto;
+    }
+
+    .button-mint{
+        display: flex;
+        justify-content: center;
+    }
+
+    .gucky{
+        grid-row-start: 2;
+        margin: 15px auto;
+    }
+
+    .gucky{
+        width: 500px;
+        height: 500px;
+    }
+    
+    .img{
+        width: 500px;
+        height: 500px;
+    }
+    
+    .road{
+        margin: 10px auto 200px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+    .roadmapimg{
+        grid-row-start: 2;
+        margin: 0 auto;
+    }
+
+    .contenedor-contenido{
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .road-text{
+        margin: 35px 75px;
+    }
+
+    .letras-grandes{
+        margin: 80px 0 65px 100px;
+        padding-top: 0px;
+        font-size: 40px;
+    }  
+
+    .road-title{
+        margin-top: 25px;
+    }
+
+    .about-us{
+        grid-template-columns: 1fr;
+    }
+
+    .aboutusimg{
+        margin: 30px auto;
+    }
+
+    .contenedor-texto{
+        margin: auto;
+    }
+
+    .money-distribution{
+        grid-template-columns: 1fr;
+    }
+
+    .money-text{
+        grid-gap: 35px;
+    }
+
+    .money-graphic{
+        margin: 15px auto;
+    }
+
+    .text-distribution{
+        margin: 15px auto;
+    }
+
+    .token-distribution{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 947px) {
+    .contenedor{
+        margin: 10px 100px 100px 100px;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .navbar{
+        justify-content: center;
+    }
+
+    .gucky{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .img{
+        width: 500px;
+        height: 500px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .parrafo-content{
+        font-size: 15px;
+    }
+
+    .roadmapimg{
+        width: 400px;
+        height: 400px;
+    }
+
+    .road-title{
+        font-size: 30px;
+    }
+
+    .title-guckyuno{
+        font-size: 15px;
+    }
+
+    .title-guckydos{
+        font-size: 10px;
+    }
+
+    .banner-galeria{
+        width: 300px;
+        height: 300px;
+    }
+
+    .lista-gucky{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .icon-gucky{
+        width: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    
+
+    .contenedor{
+        margin: auto 100px;
+    }
+}
